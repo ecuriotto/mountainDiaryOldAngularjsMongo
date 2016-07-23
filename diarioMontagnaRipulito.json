@@ -1,0 +1,2684 @@
+[
+ {
+   "id": 1,
+   "date": "01/05/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Novalesa; settore Toupè",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "L’inizio 4+; Lo scalino 4; Hale Bopp 5",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 2,
+   "date": "10/07/2011",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Tersiva",
+   "partners": [
+      " Marco Elisabetta"
+   ],
+   "description": "",
+   "descriptionDetail": "Salita in due giorni con pernottamento in tenda",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 3,
+   "date": "01/08/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Ponte del Diavolo",
+   "partners": [
+      "Stefano;Alessandro;Enrico C; Silvano; Elisa"
+   ],
+   "description": "Laser; Quark; Se non passi vendi tutto; Ego",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 4,
+   "date": "02/08/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Mompellato",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "Topo grigio; zio pino; contatto epidermico",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 5,
+   "date": "03/08/2011",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Monte Angiolino",
+   "partners": [
+      "Solitaria"
+   ],
+   "description": "",
+   "descriptionDetail": "Giorno abbastanza nebbioso; salgo a saccona in bici. Al posto di salire subito diritti su dal parcheggio provo l’alternativa seguendo la sterrata. Infinita!",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 6,
+   "date": "04/08/2011",
+   "days": 1,
+   "courseType": "Bici",
+   "place": "Giro Monti mezzenile - Viù",
+   "partners": [
+      "Solitaria"
+   ],
+   "description": "",
+   "descriptionDetail": "Hanno da poco asfaltato la strada sterrata che collega la val d’Ala alla val di Viù; provo a vedere com’è con la bici da corsa gialla. Mica male!",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 7,
+   "date": "03/09/2011",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Punta Golai",
+   "partners": [
+      "Solitaria"
+   ],
+   "description": "",
+   "descriptionDetail": "Di buona mattina salgo su ai Cornetti e da lì a piedi supero i laghi verdi il bivacco gandolfo e arrivo su al colle che porta alla val di viù. Da lì in mezzoretta si arriva per sentiero poco evidente alla punta Golai (2819m)",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 8,
+   "date": "11/09/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "La baita (Col del lys)",
+   "partners": [
+      "Cai"
+   ],
+   "description": "Tiri di 4° grado per imparare manovre",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 9,
+   "date": "02/10/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Rocca Parei",
+   "partners": [
+      "Cai"
+   ],
+   "description": "???",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 10,
+   "date": "09/10/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Machaby",
+   "partners": [
+      "Cai"
+   ],
+   "description": "Via del Bue Muschiato",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 11,
+   "date": "23/10/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Cai"
+   ],
+   "description": "Via bon ton",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 12,
+   "date": "05/11/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Rocca Perti(Finale Ligure)",
+   "partners": [
+      "Cai"
+   ],
+   "description": "Vie di quarto grado",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 13,
+   "date": "06/11/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Monte Sordo",
+   "partners": [
+      "Cai"
+   ],
+   "description": "Capriccio Diagonale (Grotta dell’edera)",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 14,
+   "date": "30/10/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Denti di Meano",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Spigolo sud ovest + primo tiro via delle placche",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 15,
+   "date": "20/11/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via Rivero",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 16,
+   "date": "25/11/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via Gervasutti + primo tiro Bianciotto",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 17,
+   "date": "05/12/2011",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Scudo di Enea + ultimi due tiri del gioco delle perle di granito; vicino al bianciotto; tutto 6A",
+   "descriptionDetail": "Dura la dulfer del primo tiro delle perle;",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 18,
+   "date": "10/12/2011",
+   "days": 2,
+   "courseType": "Ciaspole",
+   "place": "Val Saint Barthelemy e tournenche ",
+   "partners": [
+      "Marco Putzolu; Elisa e Fabio"
+   ],
+   "description": "",
+   "descriptionDetail": "Primo giorno passeggiata su per un monte; mediocre. notte con luna piena seguiamo le spiegazioni di un astronomo. Giorno dopo gita in val tournenche partendo dal paese Valtournenche  ",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 19,
+   "date": "27/12/2012",
+   "days": 2,
+   "courseType": "Arrampicata",
+   "place": "Finale Ligure",
+   "partners": [
+      "Ale"
+   ],
+   "description": "",
+   "descriptionDetail": "Approfittiamo delle vacanze di Natale per andare a spassarcela sui monti a Finale. Con Ale; Cesar e ragazza",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 20,
+   "date": "22/01/2012",
+   "days": 1,
+   "courseType": "Scialpinismo",
+   "place": "Croix Carail (Nevache)",
+   "partners": [
+      "Corso di scialp"
+   ],
+   "description": "",
+   "descriptionDetail": "Prima gita del corso di scialpinismo; istruttore Andrea Rizzi e un altro Andrea; bella giornata su per i boschi dove non c’era vento",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 21,
+   "date": "05/02/2012",
+   "days": 1,
+   "courseType": "Scialpinismo",
+   "place": "Tète noire (Lautaret)",
+   "partners": [
+      "Corso di scialp"
+   ],
+   "description": "",
+   "descriptionDetail": "Seconda gita del corso di scialpinismo; neve dura un po’ ghiacciata e partenza della discesa abbastanza ripida",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 22,
+   "date": "04/03/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Bon Ton",
+   "descriptionDetail": "Via già fatta durante il corso; mi muovo meglio rispetto a 5 mesi fa; a parte la partenza del secondo tiro che continua a rimanere un mistero. Purtroppo la placca finale di 6A+ ci respinge ignominiosamente; molliamo un anello in loco",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 23,
+   "date": "10/03/2012",
+   "days": 2,
+   "courseType": "Scialpinismo",
+   "place": "Tète entre deux sauts e col del malatrà (tra val Ferret e Vallone del Gran San Bernardo)",
+   "partners": [
+      "Corso di scialp"
+   ],
+   "description": "",
+   "descriptionDetail": "Gita di due giorni; con pernottamento al Bonatti (+ che un rifugio un albergo). Il primo giorno saliamo alla Tète entre deux sauts; il secondo attraverso lo strettissimo col del Malatrà  passiamo dalla val Ferret al vallone del Gran San Bernardo. Vista splendida sulle Grand Jorasses e il massiccio del Bianco!",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 24,
+   "date": "31/03/2012",
+   "days": 2,
+   "courseType": "Scialpinismo",
+   "place": "Gran Paradiso",
+   "partners": [
+      "Corso di scialp"
+   ],
+   "description": "",
+   "descriptionDetail": "Ultima gita del corso di scialpinismo. Il primo giorno arriviamo al Vittorio Emanuele;  facciamo esercitazioni artva e ci insegnano come ci si lega su un ghiacciaio. Il secondo giorno partenza alle 6 (sveglia alle 5) con calma arriviamo su in cima. Neve buona; ai 3500 tira un ventaccio freddo che gela le mani; fortunatamente va via quando arriva il sole. Purtroppo non riusciamo a salire alla madonnina che c’è troppa gente; saliamo in arrampicata a un ammasso di pietre lì vicino.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 25,
+   "date": "07/04/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Bourcet",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Voci di primavera (5+ - 6A) + Monotiro di placca “Il diedro; 5b”",
+   "descriptionDetail": "Un tiro di 5+ della via l’ho tirato da primo di cordata; così come il monotiro. Bella la via che inizia di placca; e poi varia con appigli ma senza far sforzare troppo le mani. Passaggio di 6A+",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 26,
+   "date": "19/05/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Cava Avigliana",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Vie di 5+",
+   "descriptionDetail": "Scopriamo questo posto a due passi da Torino; che raggiungiamo in treno. Dalla stazione di Avigliana sono 5 minuti a piedi; carino. Ideale nei giorni di pioggia come oggi",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 27,
+   "date": "26/05/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Caprie settore Cevrè",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via Mate",
+   "descriptionDetail": "Giornata uggiosa ma non piove. Facciamo solo il primo tiro di 6 A della via Mate; il resto è troppo muschiato e sporco. Le altre vie della parete sono tutte bagnate; non si può arrampicare.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 28,
+   "date": "02/06/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Bourcet",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via degli strapiombi",
+   "descriptionDetail": "Via dura di braccia; nel quarto tiro bisogna fare un traverso che non capisco come si faccia. Poi c’è il tratto duro di 6 A e quello di 6 C che non sappiamo da dove iniziare. Difatti lasciamo perdere e iniziamo le doppie. Ultima rocambolesca su un albero di fortuna.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 29,
+   "date": "09/06/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Bourcet",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Spigolo grigio",
+   "descriptionDetail": "Bella via lunga e per me difficile. Varia; c’è sia la placca che lo strapiombo; e che strapiombo; si è costretti a strisciare sulla roccia. Finisco stremato. ",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 30,
+   "date": "10/06/2012",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Colle della ciamarella",
+   "partners": [
+      "Luisa; Davide e Paola"
+   ],
+   "description": "Rocca ciarva",
+   "descriptionDetail": "Passeggiata facile facile; a un’ora e mezza dal città di Ciriè. Giornata uggiosa tanto per cambiare",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 31,
+   "date": "23/06/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Mompellato",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Occhi di Cristallo",
+   "descriptionDetail": "Bella salita tecnica; doppie anche su un albero",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 32,
+   "date": "23/06/2012",
+   "days": 2,
+   "courseType": "Trekking",
+   "place": "Laghi di unghiasse e Fertà",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Due giorni in montagna; piazziamo la tenda al piano delle riane e ci facciamo mangiare dalle zanzare. Spettacolo di temporale notturno su Torino; bella vista. Il giorno dopo tempo discreto e saliamo ai laghi.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 33,
+   "date": "29/06/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Anticaprie",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Grazie di tutto",
+   "descriptionDetail": "Giornata piovosa; riusciamo a fare solo due tiri; bello unto e difficile soprattutto l’attacco del primo.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 34,
+   "date": "05/07/2016",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Anticaprie",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Fessura Meneghin",
+   "descriptionDetail": "Causa untura non si riesce a prendere la fessura; il grado si alza; trovo duro",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 35,
+   "date": "21/07/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Ailefroide",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Pilier de violettes- Une Belle lisse pire",
+   "descriptionDetail": "Primo giorno sulla primo settore; pagina uno del libro. Via di placca lunghissima; dopo nove ore in parete; facciamo tutti i tiri più difficili; e malgrado non riusciamo a terminare la via; ci prodighiamo in 5 o 6 lunghe doppie. ",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 36,
+   "date": "22/07/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Ailefroide",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Fissure d’Ailefroide – Snoopy directe",
+   "descriptionDetail": "Il secondo giorno patiamo la stanchezza per il giorno precedente; i tiri sono più difficili e anche di forza; niente più placca. Ne facciamo tre e scendiamo con altrettante doppie. Mentre sistemiamo la roba negli zaini una pietre colpisce Ale fortunatamente solo di striscio. Si era appena tolto il casco!",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 37,
+   "date": "05/08/2012",
+   "days": 9,
+   "courseType": "Bici",
+   "place": "Marche;Umbria; Lazio;Abruzzo",
+   "partners": [
+      "Stefano; Marco Elisabetta"
+   ],
+   "description": "",
+   "descriptionDetail": "Giro in bici di 8 giorni per gli appennini del centro Italia.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 38,
+   "date": "15/08/2016",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Vaccarezza",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "",
+   "descriptionDetail": "Mentre la pluspart preferisce grigliare noi ci gustiamo la nebbia delle valli marce su alla vaccarezza. Si vede praticamente niente e in più c’è anche un bel venticello in cima. 2h 45 min da un km sopra Leitisetto",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 39,
+   "date": "16/08/2016",
+   "days": 1,
+   "courseType": "Trekking/arrampicata",
+   "place": "Curbassere",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "",
+   "descriptionDetail": "Andiamo a cercare le vie alla curbassere alte ma non sono ben attrezzate e desistiamo",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 40,
+   "date": "18/08/2016",
+   "days": 1,
+   "courseType": "Bici",
+   "place": "Pian della mussa",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "",
+   "descriptionDetail": "Due ore e 45 ; bella giornata di sole. Forse troppo",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 41,
+   "date": "19/08/2016",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Alta Luce",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Giro ad anello Staffal – vallone di Salza – Alta luce – laghi verdi/blu con bagno e Staffal. Molto lungo ma appagante; vista grandiosa sul Monterosa; tempo bellissimo e caldo torrido anche sui 3200 della vetta!",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 42,
+   "date": "25/08/2012",
+   "days": 2,
+   "courseType": "Trekking",
+   "place": "Chersogno",
+   "partners": [
+      "Paola; Davide; Luisa"
+   ],
+   "description": "",
+   "descriptionDetail": "Sabato lasciamo la macchina al colle della Bicocca; partiamo per il lago delle camoscere – Bivacco Bonfante. Pernottiamo al Bivacco sotto la pioggia; il giorno dopo cielo sereno. Saliamo al Chersogno; ma non facciamo in tempo per arrampicare.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 43,
+   "date": "08/09/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Torrioni del Biollè",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via del camino",
+   "descriptionDetail": "Via del camino; fatichiamo a trovare la falesia. Prendiamo la strada corta per i laghi di Unghiasse e poi giriamo a destra nel pianoro; da lì iniziamo a sentire il fiume. Arriviamo al Bec di Mea; dopodichè per il sentiero che passa in mezzo alle casette scavalchiamo il fiume. Al bivio successivo sbagliamo strada e giriamo a sinistra; invece bisogna andare dritti. I tiri son tutti di 5° eccetto il primo. Delicate alcune placche; divertente il camino.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 44,
+   "date": "09/09/2012",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Tour del lago Rossa",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Giro partendo dal passo delle Mangioire; sentiero tutto ben evidente anche sul passo; pensavo peggio. Dal passo si vede il lago con una bella bastionata sotto. Dove si passerà? Sembra impossibile. Si passa su un canale di pietre bello ripido ma non pericoloso. La giornata è abbastanza nuvola; e dal lago al Gastaldi ci becchiamo un po’ di pioggia; ma niente di preoccupante; è solo condensa. Partenza alle 9.30 dal piano arrivo alle 18.30 sempre al piano. Con pause di un’oretta a pranzo al lago e mezzora circa al gastaldi",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 45,
+   "date": "15/09/2012",
+   "days": 2,
+   "courseType": "Trekking/Arrampicata",
+   "place": "Dibona",
+   "partners": [
+      "Ale e Bruno"
+   ],
+   "description": "Via normale",
+   "descriptionDetail": "Doveva essere la via Berthet Berthet-Boell-Stofer; e invece non ce la sentiamo e ripieghiamo sulla via normale. Notare una gran ubriacatura di Ale il venerdì sera; la salita al rifugio è per lui un po’ complessa…",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 46,
+   "date": "18/09/2012",
+   "days": 3,
+   "courseType": "Bici",
+   "place": "Bardonecchia-Marsiglia",
+   "partners": [
+      "Solo"
+   ],
+   "description": "",
+   "descriptionDetail": "Partenza da Bardonecchia per raggiungere Marsiglia. Tre tappe: 1)Savines le lac (colle scala; Briancon); 2)Oraison(lato sx orografico del fiume) 3)Marsiglia (Ginasservis; Rian; Trets; Peynier; Plan de Cuques) Conoscenza di Silvia ciclista avventurosa solitaria che vive in Irlanda. Da annoverare foratura in una specie di tangenziale a Marsiglia; a 2 metri dal campo zingari",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 47,
+   "date": "06/10/2012",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Lago della monaca",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Per arrivare al Levi Molinari ci sono due strade; una diretta semiasfaltata; l’altra solo inizialmente poi diventa sterrata brutta. Noi prendiamo la seconda e arriviamo solo a quota 1400; quindi facciamo 400 di dislivello per arrivare al Levi. Poi altri 500-600 per arrivare al lago della monaca; niente di eccezionale ma interessanti il Someiller; l’Ambin e le altre punte lì davanti",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 48,
+   "date": "07/10/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Bourcet",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via Normale + Relax",
+   "descriptionDetail": "Bella la via Normale; la facciamo incredibilmente velocemente; sarà perché mi alterno un paio di volte al comando (4 e 4+) e perché abbiamo una cordata dietro. Poi facciamo due monotiri: Relax(5b) da primo; e Il pino (6°) da secondo. Ale prova il primo tiro di Grido di pietra ma la placca è troppo liscia",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 49,
+   "date": "13/10/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Supercinquetti",
+   "descriptionDetail": "Andiamo di sabato per evitare la ressa dei corsi; ciònonostante becchiamo due sezioni di Arona e Monza!Dopo panino e caffè partiamo (sono le 11.20) e con parecchia coda alla partenza siam costretti a fare i primi tiri della cinquetti. Belli i tiri di 6°+ e 5+; altri un po’ discontinui",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 50,
+   "date": "20/10/2012",
+   "days": 1,
+   "courseType": "Bici",
+   "place": "Sant’Ignazio",
+   "partners": [
+      "Ester"
+   ],
+   "description": "",
+   "descriptionDetail": "Giro Torino La Cassa Lanzo Sant’Ignazio Pessinetto Lanzo ciclabile Borgaro. Ester è allenatissima; è dura starle dietro; spesso mi deve aspettare. Partiamo alle 12 e alle 17 siamo già a Torino; con un’oretta di pausa sparsa.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 51,
+   "date": "21/10/2012",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Guglia Rossa",
+   "partners": [
+      ""
+   ],
+   "description": "",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 52,
+   "date": "02/11/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Denti di Cumiana",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via dello spigolo",
+   "descriptionDetail": "Partiamo tardi la mattina che tanto fa freddo. Due giorni prima ha nevischiato verso i 1000 quindi per il sentiero di avvicinamento (1h;30) troviamo un po’ di difficoltà. Confondiamo regolarmente la via con la variante Gervasutti; ben più difficile. La via originale essendo più semplice ha pochi chiodi e non riusciamo a seguirla bene; perdendo tempo. Soprattutto l’ultimo tiro non riusciamo a trovarlo; non si vedono chiodi che corrispondono a un tiro facile. Si fa tardi; pertanto desistiamo e iniziamo a scendere in doppia. Arrivati alla base della parete ci spetta tutto il ritorno al buio; senza pila; per un bosco bagnato dalla neve poco segnalato ripida pendenza e foglie a nasconderlo… Dall’alto avevamo visto anche sei cinghiali in fila che camminavano. In circa tre ore riusciamo imprecando ad arrivare alla macchina; verso l’arrivo Ale si accorge che il suo cell ha la funzione di pila. Andiamo a dormire al Mellano",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 53,
+   "date": "03/11/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via della fontana",
+   "descriptionDetail": "Partiamo verso le 10.30; abbiamo difficoltà su alcuni passaggi anche a causa della roccia bagnata per la neve dei giorni prima che si sta sciogliendo e cola sulle pareti. Non riusciamo a chiudere la via; c’è un tratto di placca che non riusciamo a superare e siamo stanchi dal giorno precedente.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 54,
+   "date": "24/11/2012",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Osteria del viandante; Saviglianesi; primo tiro Giapponesi",
+   "descriptionDetail": "Festa dell’arrampicata alla sbarua! Si possono fare fino a tre vie; noi scegliamo le più facili: Via di 4 tiri sul quinto grado. Ale fa un po’ di fatica sul primo tiro; abbiamo due cordate che ci aspettano di ragazzi molto simpatici che ci danno anche una mano e qualche rinvio (difatti concateniamo i primi due tiri e i rinvii non bastano). La saviglianesi l’avevamo già fatta precedentemente; bella e facile come il primo tiro della giapponesi.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 55,
+   "date": "08/12/2012",
+   "days": 1,
+   "courseType": "Ciaspole",
+   "place": "Malciaussia",
+   "partners": [
+      "Giorgio Corti; Silvano; Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Qualche anno fa la salita da Margone al lago era stata interrotta per la troppa neve; quest anno ce la facciamo. Veniamo ospitati dai gestori della diga del lago che ci offrono un caffè. Lago ovviamente ghiacciato; sole solo al lago; con un po’ di vento.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 56,
+   "date": "23/12/2012",
+   "days": 1,
+   "courseType": "Ciaspole",
+   "place": "Frais – Alpe Arguel",
+   "partners": [
+      "Stefano; Mariella; Marta; Michele Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Nuova gita tutta lungo una sterrata ovviamente innevata. Un paio d’ore di marcia",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 57,
+   "date": "30/12/2012",
+   "days": 1,
+   "courseType": "Ciaspole",
+   "place": "Dondena",
+   "partners": [
+      "Rocco; Stefano; Mariella; Luisa; Giorgio; Valentina; Marta; Michele; Francesca; Paolo Bardella"
+   ],
+   "description": "",
+   "descriptionDetail": "Gita classica al dondena; niente da segnalare. Si sale su fino all’ultima borgata con la macchina; la neve lo consente. !ora e venti per arrivare al punto di partenza da Torino",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 58,
+   "date": "02/01/2013",
+   "days": 1,
+   "courseType": "",
+   "place": "Laghi Sagnasse",
+   "partners": [
+      "Mariella; Stefano"
+   ],
+   "description": "",
+   "descriptionDetail": "Prima volta in invernale a questi laghi; che non si vedono proprio seppelliti dalla neve. Due ore abbondanti per raggiungerli. Percorso tutto sotto il sole; si va in maglietta",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 59,
+   "date": "04/01/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Finale Ligure",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Excalibur",
+   "descriptionDetail": "Bel periodo di alta pressione e ne approfittiamo per un giro a finale. Il primo giorno ci rechiamo a Monte Sordo e affrontiamo Excalibur. Tentiamo anche capriccio diagonale; storica via che porta a una calata verticale in doppia nella grotta dell’edera ma purtroppo sbaglio la valutazione e nel secondo tiro finiamo su un 6°+ troppo complicato per il nostro livello attuale. Lasciamo perdere e andiamo a rifocillarci a CA’ di Alice; pernottamento + cena + colazione 50 € ottimo rifornimento!",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 60,
+   "date": "05/01/2013",
+   "days": 1,
+   "courseType": "Arrampicata ",
+   "place": "Finale Ligure",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via del Vecchio",
+   "descriptionDetail": "Rocca di Perti. Ci rechiamo alla zona Ovest della rocca di perti; facciamo questa facile via storica. Ci perdiamo un po’ verso la fine ma va tutto bene. Sole sulla schiena nel pomeriggio; fantastico; peccato per il rumore dell’autostrada.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 61,
+   "date": "10/03/2013",
+   "days": 1,
+   "courseType": "Ciaspole",
+   "place": "La Cialma",
+   "partners": [
+      "Rocco; Vitor; Daria; Paola; Andrea; Mariella; Elisa"
+   ],
+   "description": "",
+   "descriptionDetail": "Bella giornata; salita dalle parti di Locana. Peccato che Vitor non ce la fa a raggiungere la cima; allora aspetto con lui.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 62,
+   "date": "14/03/2013",
+   "days": 1,
+   "courseType": "Sci Alpinismo",
+   "place": "Cima delle Vallette (Frais)",
+   "partners": [
+      "Silvano"
+   ],
+   "description": "",
+   "descriptionDetail": "Fantastica e fredda giornata di sole; ci mettiamo un po’ a trovare la partenza. La discesa non è un granchè; bisognerebbe saper sciare. Volendo si può fare anche la Ciantiplagna; alla sinistra della Vallette. ",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 63,
+   "date": "06/04/2013",
+   "days": 1,
+   "courseType": "Ciaspole",
+   "place": "Monte Soglio",
+   "partners": [
+      "Paola; Paola Franceschina; amico Franceschina"
+   ],
+   "description": "",
+   "descriptionDetail": "Purtroppo il tempo è nebbioso; non ci prendiamo la pioggia per un miracolo. Arriviamo all’Alpe Soglio; mangiamo i panini e torniamo indietro.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 64,
+   "date": "14/04/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Rocca di Lities",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Adesso Basta (5b)",
+   "descriptionDetail": "Bella arrampicata non banale. Faccio da primo il secondo tiro (passo nel vuoto) e mi pare un altro facile più avanti",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 65,
+   "date": "05/05/2013",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Lities: cappella di San Domenico (1771 m).",
+   "partners": [
+      "Paola; Mariella; Francesca"
+   ],
+   "description": "",
+   "descriptionDetail": "Quella che sarebbe una facile passeggiata di 600 m di dislivello; diventa più incasinata perché il torrentello mangia un pezzo di sentiero e ci perdiamo per i prati pendenti e scivolosi; sviati da un pilone votivo. Alla fine reimbocchiamo la strada corretta e arriviamo in cima. Rientro sotto la pioggia.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 66,
+   "date": "12/05/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via della Fontana",
+   "descriptionDetail": "Ritentiamo la via che ci ha respinto in autunno. Particolarmente duri il 2 e 4 tiro (mungo di brutto); sul 4 addirittura metto il piede sulla spalla di un russo fumatore di sigari. Meno difficoltà sulla placca. Ale non riesce da primo a superare la dulfer del penultimo tiro che farà da secondo (ci spostiamo per fare un paio di tiri facili sulla Cinquetti)",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 67,
+   "date": "26/05/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Corso alpinismo uget "
+   ],
+   "description": "Via angiolina ritorna + primi due tiri di like a rolling stones",
+   "descriptionDetail": "Vie facili sul 5 ; 5+. I gradi + difficili li evitiamo ",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 68,
+   "date": "02/06/2013",
+   "days": 1,
+   "courseType": "Arrampicata montagna",
+   "place": "Bect di Raty",
+   "partners": [
+      "Corso alpinismo uget"
+   ],
+   "description": "Via smeraldo",
+   "descriptionDetail": "Bella via facile; un tiro con passaggio di 5+ alla fine (tirarsi su un appiglio); tutto il resto 5 o meno. Spittata un po’ lunga. Dovevamo fare la via delle placche; ma non abbiamo trovato i chiodi e abbiamo desistito. 6 cordate in coda sulla stessa via… un po’ lungo.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 69,
+   "date": "09/06/2013",
+   "days": 1,
+   "courseType": "Arrampicata falsesia",
+   "place": "Anticaprie",
+   "partners": [
+      "Corso alpinismo uget"
+   ],
+   "description": "Via Ocio e primo tiro di Orione",
+   "descriptionDetail": "Dovevamo andare a briancon ma lì pioveva. Ripieghiamo su anticaprie dove facciamo una via di tre tiri (6A) e ne iniziamo un’altra prima di prenderci la pioggia e tornare a casa. Vie molto unte e difficili per il mio livello",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 70,
+   "date": "15/06/2013",
+   "days": 1,
+   "courseType": "Arrampicata montagna",
+   "place": "Briançon",
+   "partners": [
+      "Corso alpinismo uget"
+   ],
+   "description": "Eperon des Salettes",
+   "descriptionDetail": "Via discreta; facile a parte un passaggio di 5+. Bella la vista su briançon e i suoi forti",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 71,
+   "date": "16/06/2013",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Ailefroide",
+   "partners": [
+      "Corso alpinismo uget"
+   ],
+   "description": "Glacier le blanc",
+   "descriptionDetail": "Esercitazione su ghiacciaio",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 72,
+   "date": "29/06/2013",
+   "days": 2,
+   "courseType": "Alpinismo",
+   "place": "Ailefroide",
+   "partners": [
+      "Corso alpinismo uget"
+   ],
+   "description": "Pelvoux",
+   "descriptionDetail": "Pernottiamo al rifugio del Pelvoux dopo 3 ore di salita noiosa che patiremo al ritorno (soprattutto il lungo piano iniziale/finale);Il giorno dopo siamo costretti a seguire il la cordata di Sacchetti che vuole salire il couloir Mattrier; peccato che sia troppo difficile. Quindi ci perdiamo la salita perché secondo gli esperti è troppo tardi… mah",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 73,
+   "date": "06/07/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Ailefroide",
+   "partners": [
+      "Corso alpinismo uget"
+   ],
+   "description": "Via di 6/7 tiri alla destra della fessura. Tutto sul quinto; passo di 6A",
+   "descriptionDetail": "Roccia non fantastica ma comunque molto piacevole",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 74,
+   "date": "07/07/2013",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Vallouise; massiccio dei Bans",
+   "partners": [
+      "Corso Alpinismo Uget"
+   ],
+   "description": "",
+   "descriptionDetail": "Cerchiamo di raggiungere l’aiguille du boeuf rouge; cambiando i programmi dato che le previsioni erano di pioggia per la mattina. Purtroppo nonostante il ripiego gli istruttori non riescono a trovare la via per la cima; vuoi per la relazione poco chiara; vuoi per incomprensioni con il gestore del rifugio",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 75,
+   "date": "13/07/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Torre Germana",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Spigolo Boccalatte",
+   "descriptionDetail": "Classicissima della Torre Germana; via molto bella; i tiri facili hanno pochi spit",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 76,
+   "date": "17/07/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Ailefroide",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Via Snoopy classica",
+   "descriptionDetail": "Bellissima via di una decina di tiri tutti lunghi.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 77,
+   "date": "20/07/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Biollè",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Primo tiro via del diedro – uscita di sicurezza – gruppo utopistico",
+   "descriptionDetail": "Siccome non troviamo l’attacco del gruppo utopistico attacchiamo dalla via del diedro; scelta che viene premiata. Tutti e tre i tiri sono molto belli.Faccio anche da primo china beach (5c+)",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 78,
+   "date": "21/07/2013",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Ciamarella",
+   "partners": [
+      "Ale; Marco; Elisabetta"
+   ],
+   "description": "Via Normale",
+   "descriptionDetail": "Troviamo la salita e discesa molto faticosi; nonostante il dislivello dal Gastaldi di soli 900 metri. Siccome c’è parecchia neve puntiamo diritti alla cima per il canalone; piuttosto che effettuare tutto il traverso finale fino alla cresta.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 79,
+   "date": "27/07/2013",
+   "days": 2,
+   "courseType": "Alpinismo",
+   "place": "Polluce",
+   "partners": [
+      "Ale; Bruno; Matteo"
+   ],
+   "description": "Parete Ovest",
+   "descriptionDetail": "Partenza da Torino sabato ore 4.00. Appuntamento a St. Jacques con la Jeep che ci porta fino al piano di Verra superiore. Al Mezzalama posiamo saccoletto e ricambi vari; e proseguiamo un po' alleggeriti verso il Polluce. Lo scivolo visto dal Rifugio delle Guide è impressionante (si scorge anche la traccia) ma poi si dimostra fattibile (pendenza 45 e senza ghiaccio). Peccato solo che un attimo prima di arrivare in cima le nuvole raggiungono la vetta e ci ostruiscono il panorama... Il giorno dopo (domenica) proviamo ad andare sul Castore; ma il forte vento respinge noi e tutte le cordate che ci provano. Sarà per un'altra volta.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 80,
+   "date": "01/08/2013",
+   "days": 1,
+   "courseType": "Trekking/Ferrata",
+   "place": "Dolomiti Brenta",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "",
+   "descriptionDetail": "5 giorni sulle dolomiti del brenta e roda de vael",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 81,
+   "date": "01/09/2013",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Uja di mondrone",
+   "partners": [
+      "Matteo; Riccardo (alpinismo)"
+   ],
+   "description": "",
+   "descriptionDetail": "Salita in una bella giornata; solo 3 ore per la salita",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 82,
+   "date": "01/10/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Alessandro; matteo; Alessandro dutur"
+   ],
+   "description": "",
+   "descriptionDetail": "Andiamo per fare una via ; c’è troppa gente; perdiamo un sacco di tempo ; ripieghiamo su un’altra soluzione (?) di 4 o 5 tiri",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 83,
+   "date": "01/10/2013",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Machaby",
+   "partners": [
+      "Ale"
+   ],
+   "description": "Bucce di arancia",
+   "descriptionDetail": "Bella arrampicata non difficile; l’ultima prima della Francia",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 84,
+   "date": "01/11/2013",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Matheysine - Lac de monteynard",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Giro nella zona dell; percorriamo la passerella imalaiana; zona di laghi. In primavera si può fare un giro ad anello; prenotando il battello",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 85,
+   "date": "01/12/2013",
+   "days": 1,
+   "courseType": "Ciaspole",
+   "place": "Belledonne - Grand Rocher",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Gitarella carina; si parte da una pista di fondo; serie di cime in cresta; vista sulla valle di sotto e sul massiccio di Belledonne",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 86,
+   "date": "01/12/2013",
+   "days": 1,
+   "courseType": "Ciaspole",
+   "place": "",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 87,
+   "date": "01/12/2013",
+   "days": 1,
+   "courseType": "Ciaspole",
+   "place": "Pian della Mussa",
+   "partners": [
+      "Stefano; Giorgio; Davide; Mariella;Ganza"
+   ],
+   "description": "",
+   "descriptionDetail": "Grande classica; sempre poco sole in inverno. Discreta quantità di neve",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 88,
+   "date": "12/01/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Vercors – Col Serpaton",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Si parte da Gresse-en-Vercors; dopo Vif . Anello che sarebbe più carino da fare con la neve… che scarseggia.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 89,
+   "date": "02/03/2014",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Moucherotte (Vercors)",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Partenza da nizier de moucherotte; sci alpinistica molto battuta; 750 metri di dislivello. Giornata non bellissima ma abbiamo apprezzato comunque. Discesa a tratti ripida e gobbuta",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 90,
+   "date": "09/03/2014",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Tète de Chaudiere (Vercors)",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Purtroppo non troviamo il percorso e seguiamo gli impianti di risalita. Dobbiamo riprovarci",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 91,
+   "date": "12/04/2014",
+   "days": 1,
+   "courseType": "Ferrata",
+   "place": "Saint François en Oisans",
+   "partners": [
+      "Onvasortir"
+   ],
+   "description": "",
+   "descriptionDetail": "Uscita con il gruppo onvasortir; divertente; bella giornata con un gruppo di vecchietti scatenati.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 92,
+   "date": "01/05/2014",
+   "days": 2,
+   "courseType": "Arrampicata",
+   "place": "Marsiglia",
+   "partners": [
+      "Stefano e Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Giornate ventose a Marsiglia; troviamo due falesie riparate con tiri facili; una dopo il colle di sormiou sulla destra (parfumerie); l’altra prima della calanque di callelongue. Si arrampica sul 4-5 senza superare il 5b",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 93,
+   "date": "09/05/2014",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Sbarua",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "Cinquetti",
+   "descriptionDetail": "Completo la via quasi interamente da primo; se non per il secondo tiro. Gran bella giornata con Stefano appena arrivato da Marsiglia con viaggio notturno; stanchissimo",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 94,
+   "date": "10/05/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Alpe d’attia",
+   "partners": [
+      "Stefano e Mariella"
+   ],
+   "description": "",
+   "descriptionDetail": "Passeggiatina tranquilla in un ponte lungo a torino",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 95,
+   "date": "24/05/2014",
+   "days": 1,
+   "courseType": "Ferrata",
+   "place": "Saint François en Oisans",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Rifaccio con Paola la ferrata; nessun problema per Paola",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 96,
+   "date": "14/06/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Gorges du Nan",
+   "partners": [
+      "Onvasortir freddesvulcans"
+   ],
+   "description": "https://drive.google.com/ folderview?id=0B5Xq49kaRJK3bkt MVFN4TndvdDQ&usp=sharing",
+   "descriptionDetail": "Bella uscita; soprattutto la parte bassa dove c’è il torrente d’acqua. Ci sono anche delle lame dove si potrebbe fare il bagno. Gruppo simpatico e tranquillo. Incontriamo Jimena e Fabien",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 97,
+   "date": "04/08/2014",
+   "days": 2,
+   "courseType": "Trekking",
+   "place": "Emilius",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "",
+   "descriptionDetail": "Uscita su due giorni; prima delle vacanze. Purtroppo troviamo il bivacco completamente pieno e siamo costretti a tornare al rifugio Arbolle. (bel rifugio; ma privato e quindi carissimo)Quindi l’intenzione di fare la ferrata viene accantonata e il giorno dopo propendiamo per la normale. Bella giornata; ottimo panorama.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 98,
+   "date": "13/08/2014",
+   "days": 2,
+   "courseType": "Trekking",
+   "place": "Rocciamelone",
+   "partners": [
+      "Paola; Stefano; Bruno"
+   ],
+   "description": "",
+   "descriptionDetail": "Gran classica effettuata con pernottamento al Tazzetti. Ottima accoglienza; solo noi piè i simpatici gestori al rifugio. Preoccupati che le piogge dei giorni precedenti portassero verglas piu in alto; ma non ci sono stati problemi. Al ritorno troviamo anche del genepi. Una delle poche giornate soleggiate delle vacanze.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 99,
+   "date": "07/09/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Dent de Crolles (Chartreuse)",
+   "partners": [
+      "Philippe"
+   ],
+   "description": "",
+   "descriptionDetail": "Parto da solo dal col du Coq. A metà strada incontro un certo Philippe di cui faccio amicizia. Ci troveremo alcune volte poi per correre e per suonare.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 100,
+   "date": "27/09/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Gran Colon",
+   "partners": [
+      "Carlos"
+   ],
+   "description": "",
+   "descriptionDetail": "Giro in boucle nel massiccio di Belledonne. Si sale sul Gran Colon poi si va al rifugio della Pra; e si riscende al lago Crozet e alla macchina (Pra de veymont). Giro che permette di passare per diversi laghi belli. Tanta gente per i sentieri",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 101,
+   "date": "25/10/2014",
+   "days": 1,
+   "courseType": "Via Ferrata",
+   "place": "Bastiglia",
+   "partners": [
+      "Carlos e Eduardo"
+   ],
+   "description": "",
+   "descriptionDetail": "Primo pezzo difficile con ponte delle scimmie; seconda tratta molto difficile. Carlos molla prima; io finisco a fatica; mi riposo spesso",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 102,
+   "date": "26/10/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Gran Veymont",
+   "partners": [
+      "Emmanuel e figlio di 5 anni e mezzo"
+   ],
+   "description": "",
+   "descriptionDetail": "Passeggiata con anche il figlio di Emmanuel; un ragnetto. Bellissima vista dalla cima. Un sacco di stambecchi e camosci.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 103,
+   "date": "02/11/2014",
+   "days": 1,
+   "courseType": "Trekking/arrampicata",
+   "place": "Chamechaude",
+   "partners": [
+      "Carlos e Delphine"
+   ],
+   "description": "Breche arnaud",
+   "descriptionDetail": "Bella giornata; fatichiamo a trovare il punto di partenza per la breccia; bisogna mantenersi alti. Si andrebbe slegati ma utilizziamo la corda di 30m. Grande soddisfazione e bella vista su belledonne e bianco",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 104,
+   "date": "21/12/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Gros Martel (1536)",
+   "partners": [
+      "Solo"
+   ],
+   "description": "",
+   "descriptionDetail": "Giro in solitaria nel Vercors; partenza da Meaudre. Non c’è un cm di neve; niente di particolare",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 105,
+   "date": "26/12/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Punta serena",
+   "partners": [
+      "I coggiola e Stefano"
+   ],
+   "description": "",
+   "descriptionDetail": "Mattina prima di un bel pranzetto",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 106,
+   "date": "28/12/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Rifugio Daniele Arlaud",
+   "partners": [
+      "Stefano; Mauro; Alberto amico Stefano con fidanzata e amica"
+   ],
+   "description": "",
+   "descriptionDetail": "Passeggiata sulla neve (poca) freddo; tutto all’ombra. Due ore per arrivare al rifugio dove mangiamo panini",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 107,
+   "date": "30/12/2014",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Rifugio Amprimo",
+   "partners": [
+      "Rocco Daria Bruno; Stefano e Geppe"
+   ],
+   "description": "",
+   "descriptionDetail": "Prima Passeggiatina di Bruno all’età di 2 mesi",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 108,
+   "date": "02/01/2015",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Grotte de la Ture (Autrans)",
+   "partners": [
+      "Mariella Stefano e Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Gitarella da pensionati. Volevamo andare al rifugio di Feneys ma è troppo lungo dopo essersi svegliati tardi.Ripieghiamo al Plan de l’ours ma non c’è piu cibo.. quindi due passi fino alla grotta",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 109,
+   "date": "03/01/2015",
+   "days": 1,
+   "courseType": "Trekking/Ciaspole",
+   "place": "Mont Fromage (Chartreuse)",
+   "partners": [
+      "Stefano; Paola; Mariella"
+   ],
+   "description": "",
+   "descriptionDetail": "Giro ad anello in Chartreuse. Partenza dal col de la porte. Raggiunta la punta si scende per la ex pista di sci che si trova poco dopo il mont fromage",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 110,
+   "date": "25/01/2015",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "col de la Valette (dopo il col de la madeleine)",
+   "partners": [
+      "caf"
+   ],
+   "description": "",
+   "descriptionDetail": "Bella gita di piu di 1000 metri di dislivello col caf. Arrivo distrutto. Tempo non bellissimo",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 111,
+   "date": "28/02/2015",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Pic du Rognolet",
+   "partners": [
+      "caf"
+   ],
+   "description": "",
+   "descriptionDetail": "1300 metri di dislivello; discesa in neve fresca; tempo accettabile. Arrivo ancora piu distrutto della volta precedente",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 112,
+   "date": "09/05/2015",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Lac Achard (chamrousse)",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Sveglia tardissimo; camminata di un’ora o poco piu che ci porta a un bel laghetto sopra chamrousse. La giornata è bella; è pieno di gente.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 113,
+   "date": "14/05/2015",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Dent de Moirans",
+   "partners": [
+      "Paola"
+   ],
+   "description": "",
+   "descriptionDetail": "Altra passeggiata da pensionati stanchi pomeridiana; posto però caratteristico; estremità del Vercors sopra Voreppe; a picco sulla piana. Attenzione a sporgersi",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 114,
+   "date": "17/05/2015",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Albenc",
+   "partners": [
+      "Pablo Gomez"
+   ],
+   "description": "Primo tiro di riscaldamento; 5c Persée non completato e un 5b (Vierge ) e 5a+ (Licorne) quest ultimo bel diedro ma umido. ",
+   "descriptionDetail": "Prima arrampicata dell’anno; arruginamento diffuso. Bel settore; da ritornare",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 115,
+   "date": "04/07/2015",
+   "days": 2,
+   "courseType": "Trekking",
+   "place": "Thabor",
+   "partners": [
+      "Marco e Elisabetta; Alberto amico loro"
+   ],
+   "description": "Pernottamento in tenda",
+   "descriptionDetail": "Gita in due giorni primo: grange di valle stretta – Rifugio du Thabor. Secondo giorno Thabor. Gita già fatta qualche anno prima con Stefano e Alberto. Bellissime giornate assolate quando a Grenoble si schiatta dal caldo",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 116,
+   "date": "11/07/2015",
+   "days": 2,
+   "courseType": "Alpinismo",
+   "place": "Pointe Piatou",
+   "partners": [
+      "Carlos"
+   ],
+   "description": "Impressionante il ghiacciaio che si butta sul lago. Lo zaino più pesante che ho portato (attrezzi alpinismo tenda e fornello)",
+   "descriptionDetail": "Primo giorno partiamo da Bonneval per refuge des Evettes dove campeggiamo in tenda. Secondo giorno dopo un po’ di fatica a trovare la strada raggiungiamo il colle delle disgrazie (ghiacciaio semplice) e poi la pointe Piatou.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 117,
+   "date": "14/07/2015",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Pointe Maye",
+   "partners": [
+      "Solitaria"
+   ],
+   "description": "Leggera arrampicata; qualche corda e attrezzo in loco",
+   "descriptionDetail": "Escursione di un paio d’ore verso un punto superpanoramico dove si vede a 360 tutto l’ecrins. Partenza da la Berarde",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 118,
+   "date": "19/07/2015",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Tete de Moucherolle (Grande et petite)",
+   "partners": [
+      "Solitaria"
+   ],
+   "description": "Per raggiungere la partenza della cresta occorre salire per un’ora abbondante per le piste da sci. Dopo alcuni passi in cui occorre mettere le mani. Poco piu di 1000 D+",
+   "descriptionDetail": "Cresta ovest della tete de Moucherolle; discesa al colle di Moucherolle e salita alla petite Moucherolle. Discesa per le piste di sci",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 119,
+   "date": "26/07/2015",
+   "days": 1,
+   "courseType": "Via ferrata",
+   "place": "Cascade de la fare",
+   "partners": [
+      "Onvasortir"
+   ],
+   "description": "",
+   "descriptionDetail": "Bell’ambientazione; via tutto lungo il profilo di una cascata. Ci sono due tronconi noi facciamo quello piu vicino alla cascata. Troppa ferraglia; niente di complicato; ma bel panorama",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 120,
+   "date": "13/08/2015",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Monviso",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "Via Normale da Casetello",
+   "descriptionDetail": "Saliamo al bivacco boarelli; per un nuovo sentiero che in parte sale su per un torrente. Bella salita; arrampicata facile ma non ci siamo protetti. Non ci ha dato l’impressione di essere tanto pericolosa per la caduta di pietre. Discesa infinita",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 121,
+   "date": "18/08/2015",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Rifugio Daviso",
+   "partners": [
+      "Stefano; Emanuele Scorlin pompiere"
+   ],
+   "description": "",
+   "descriptionDetail": "Volevamo andare alla Levanna ma non abbiam trovato la targa di beato Murialdo. Poi sono arrivate le nuvole e siamo tornati al rifugio; simpaticamente gestito da volontari di Venaria. Conosciuto Emanuele pompiere torinese che è venuto con noi.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 122,
+   "date": "22/08/2015",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Bivacco Molino",
+   "partners": [
+      "Mariella Luisa"
+   ],
+   "description": "",
+   "descriptionDetail": "Partenza da Mondrone volevamo salire a dei laghi (quali? boh) e alla fine sbagliamo strada e ci ritroviamo al bivacco Molino. Un camoscio ci aspetta al bivacco. Giornata nuvolosa.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 123,
+   "date": "25/08/2016",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Bouchiers",
+   "partners": [
+      "Montagnes de la terre"
+   ],
+   "description": "Seconda giornata di stage",
+   "descriptionDetail": "Palestra di roccia per imparare a mettere le protezioni veloci. Max 4c",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 124,
+   "date": "26/08/2016",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Rifugio du glacier blanc",
+   "partners": [
+      "Montagnes de la terre"
+   ],
+   "description": "Terza giornata di stage",
+   "descriptionDetail": "Salita al rifugio e scuola di ghiaccio",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 125,
+   "date": "27/08/2016",
+   "days": 1,
+   "courseType": "Alpinismo ",
+   "place": "Roche Faurio",
+   "partners": [
+      "Montagnes de la terre"
+   ],
+   "description": "Quarta giornata di stage",
+   "descriptionDetail": "Traversata del ghiacciaio crepacciato fino ad avere sulla sinistra la barra des ecrins e a destra la roche faurio (non si vede che alla fine). Da li la marchia su ghiaccio diventa piu ripida fino ad arrivare a ll’inizio della cresta. Sufficienti cordini; alcuni spit in loco; terzo max; forse passo di quarto",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 126,
+   "date": "28/08/2016",
+   "days": 1,
+   "courseType": "Alpinismo ",
+   "place": "Pointe Cezanne",
+   "partners": [
+      "Montagnes de la terre"
+   ],
+   "description": "Quinta giornata di stage",
+   "descriptionDetail": "Bella salita su roccia; 6 tiri fatti in alternanza con Simon (revrsible). Lui si è beccato il tiro di 4c che alla fine non è niente di complicato. Usiamo friends. Discesa in doppia",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 127,
+   "date": "12/09/2016",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Oreilles du loup",
+   "partners": [
+      "caf"
+   ],
+   "description": "",
+   "descriptionDetail": "Uscita col caf grenobe; siamo in 7; a fare una cresta facile (3+ max). Occorre mettere qualche friends e cordino",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 128,
+   "date": "20/09/2016",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Eperon des gosses Mytiques",
+   "partners": [
+      "Eric"
+   ],
+   "description": "Con Eric; tipo disponibile conosciuto su una ferrata tempo prima",
+   "descriptionDetail": "Via di 5 tiri e 3 doppie; massimo grado 5b molto comoda perché vicino a Grenoble (Saint Egreve)",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 129,
+   "date": "27/09/2016",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Dalles de Charmant Som",
+   "partners": [
+      "Un vecchio grenoblese"
+   ],
+   "description": "",
+   "descriptionDetail": "Placche senza arte ne parte; molto facili non si arriva al quarto. Van bene per debuttanti",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 130,
+   "date": "24/10/2016",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Gran Colon",
+   "partners": [
+      "Philippe"
+   ],
+   "description": "Stesso giro fatto con Carlos il 10/2014",
+   "descriptionDetail": "Giro in boucle nel massiccio di Belledonne. Si sale sul Gran Colon poi si va al rifugio della Pra; e si riscende al lago Crozet e alla macchina (Pra de veymont). Giro che permette di passare per diversi laghi belli. Tanta gente per i sentieri",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 131,
+   "date": "22/11/2016",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Arete à Jojo",
+   "partners": [
+      "Sabi"
+   ],
+   "description": "",
+   "descriptionDetail": "Carina cresta che non supera il 3+ da fare in corda tesa e scarponi",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 132,
+   "date": "06/12/2015",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Marsiglia : falesia del Prado a Morgioux",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "",
+   "descriptionDetail": "Fatti 4 tiri tra il 4c e il 5c; grande soddisfazione.dovevano essere 2 giorni; invece solo 1; l’altro ha piovuto.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 133,
+   "date": "30/12/2015",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Borgone",
+   "partners": [
+      "Stefano; Walter; Stéphanie"
+   ],
+   "description": "",
+   "descriptionDetail": "Penato su un paio di tiri quotati 5c e 6a+; placche nere e piedi di burro. Si tira tutto quello che si puo’",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 134,
+   "date": "01/01/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Corsi toute neige e premières traces",
+   "partners": [
+      "caf"
+   ],
+   "description": "",
+   "descriptionDetail": "Corsi di tecninca sciistica e su come impostare una gita scialpinistica. Per il secondo corso uscite nel vercors; chamrousse; beaufortain e lausiere.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 135,
+   "date": "18/02/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Grand Arc (Maurienne)",
+   "partners": [
+      "caf"
+   ],
+   "description": "",
+   "descriptionDetail": "Lunga gita di 1420 m di dislivello; saliamo al petit arc; scendiamo di 100 metri e risaliamo al grand arc. Ultimo pezzo in cresta con gli scarponi. Bella vista a 360 su Monte Bianco in primis.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 136,
+   "date": "20/02/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Tete de vallon Pierra (Devoluy)",
+   "partners": [
+      "caf"
+   ],
+   "description": "Primo giorno di un weekend di sci",
+   "descriptionDetail": "Scopriamo il devoluy con questa gita; parecchio spostamento; arriviamo fino al colle tra la tete e il Grand Ferrand (imponente!) Troppo vento per raggiungere la cima; torniamo indietro. ",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 137,
+   "date": "21/02/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Aiguille d’Orcières",
+   "partners": [
+      "caf"
+   ],
+   "description": "Secondo giorno di un weekend di sci",
+   "descriptionDetail": "Montagna sovrana dello champsaur; giornata calda per essere una faccia nord. Salita lunga e costante; in tre ore e mezza di cammino senza molte pause siamo in cima.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 138,
+   "date": "28/02/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Pic St Michel",
+   "partners": [
+      "Stefano e Stéphanie"
+   ],
+   "description": "Secondo giorno di un weekend col fratello",
+   "descriptionDetail": "Neve scarsa; parecchio portage per arrivare alla neve. Stefano con gli scarponi; Stéphanie con le ciaspole. Discesa non male comunque; fino alla pista di sci alpino (chiusa)",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 139,
+   "date": "06/03/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Breche de roche fondue",
+   "partners": [
+      "Caf"
+   ],
+   "description": "",
+   "descriptionDetail": "",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 140,
+   "date": "19/03/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Genevris",
+   "partners": [
+      "Putzolu"
+   ],
+   "description": "Weekend con Marco e Elisabetta in val di Susa",
+   "descriptionDetail": "Partiamo tardi che mi dimentico i cellulari in macchina e si torna a ricuperarli. Quindi neve colla; arrivo su in cima stanco. Si sente dall’alto un dj o simile che ",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 141,
+   "date": "20/03/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Dourmillouse",
+   "partners": [
+      "Putzolu"
+   ],
+   "description": "",
+   "descriptionDetail": "Gran bella gita; lunga per il dislivello (1200) e lo spostamento. Valli ampie. Giornata di sole e un po’ di nuvole",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 142,
+   "date": "13/04/2016",
+   "days": 1,
+   "courseType": "Sci alpinismo",
+   "place": "Tour Thabor",
+   "partners": [
+      "CAF"
+   ],
+   "description": "Salita sotto la pioggia il primo giorno. Per il resto tempo mediocre; solo il secondo giorno tempo bellissimo quando si arriva al Thabor. Compagnia tranquilla; simpatica; gran giocate a carte in rifugio; lunghi pomeriggi. ",
+   "descriptionDetail": "Giro del Thabor. Primo giorno salita al refuge des Drayères. Secondo Thabor e discesa al re magi. Terzo col du vallon et refuge du Ricou. Quarto Rifugio Drayeres per il rocher de la grande tempete.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 143,
+   "date": "22/05/2016",
+   "days": 1,
+   "courseType": "Trekking",
+   "place": "Tete Chevaliere",
+   "partners": [
+      "Sandra"
+   ],
+   "description": "Tempo valido. Vista spettacolare sul mont Aiguille. Vediamo una cinquantina di stambecchi tutti insieme che pascolano e si scornano.",
+   "descriptionDetail": "Gita in un bel posto selvaggio; senza tanti sentieri. Si passa per il col dell’Aiguille.",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 144,
+   "date": "04/06/2016",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Paroie Noire",
+   "partners": [
+      "Stefano"
+   ],
+   "description": ". Non facile da trovare; occorre cercare le iniziali scritte con vernice nera. Bellissima vista sulla cala di Sormiou",
+   "descriptionDetail": "Via lunga facile e carina. Corta 4 lunghezze",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 145,
+   "date": "05/06/2016",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Hallu Nulle",
+   "partners": [
+      "Stefano"
+   ],
+   "description": "Arriviamo con un percorso un po’ delicato alla metà del secondo tiro. Facciamo infatti una sosta su uno spit. Per arrivare li facciamo un traverso delicato; ma ci proteggiamo con delle soste un po’ artigianali. Bellissima vista dietro la cala di Sormiou. Si potrebbe andarci in canoa.",
+   "descriptionDetail": "Via lunga facile di 6 lunghezze",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 146,
+   "date": "12/06/2016",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Hors Pierre",
+   "partners": [
+      "Stefano & Co"
+   ],
+   "description": "",
+   "descriptionDetail": "Domenica parto di buona mattina per incontrare il fratello; Stéphanie et amici vari. Facciamo qualche tiro alla parete della cascata (settore dalles)",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 147,
+   "date": "25/06/2016",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Tsantseleina",
+   "partners": [
+      "CAF"
+   ],
+   "description": "",
+   "descriptionDetail": "Sabato arriviamo alla diga di Tignes (val d’Isere) da li prendiamo una deviazione verso le Saut dove campeggiamo. Giorno dopo partenza alle 5 e saliamo la Tsantseleina; 400 metri di neve sfondata a 45g. PD+ la quotazione",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 148,
+   "date": "06/07/2016",
+   "days": 1,
+   "courseType": "Arrampicata",
+   "place": "Mas d’Oris",
+   "partners": [
+      "Nicolas Haut"
+   ],
+   "description": "",
+   "descriptionDetail": "Monotiri. Bei tiri difficili; il primo mi arrendo clamorosamente; il secondo lo passo soffrendo come un cane. Non si capiscono bene le quotazioni; ma devono essere 5c; 6° max",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+},
+ {
+   "id": 149,
+   "date": "09/10/2007",
+   "days": 1,
+   "courseType": "Alpinismo",
+   "place": "Pointe Ronce",
+   "partners": [
+      "CAF"
+   ],
+   "description": "Note: simpatica vecchietta alla taverna che osanna il Moncenisio e racconta un sacco di aneddoti",
+   "descriptionDetail": "Pernottiamo in una taverna del colle del Moncenisio. Il giorno dopo partenza alle 5 e saliamo alla Punta Haie per un canalino roccioso. Dopodichè traversata fino alla punta Ronce (Nord Ovest) saltando la punta du Vieux",
+   "descriptionUrl": [
+      ""
+   ],
+   "photoUrl": [
+      ""
+   ]
+}
+]
