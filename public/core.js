@@ -6,7 +6,7 @@ var diary = angular.module('diary', ['ngAnimate','ui.bootstrap'])
                 $scope.formData = {};
                 $scope.courses = [];
                 $scope.sortType     = 'id'; // set the default sort type
-                $scope.sortIt  = false;  // set the default sort order
+                $scope.sortIt  = true;  // set the default sort order
                 $scope.searchTerm   = '';     // set the default search/filter term
                 $scope.items = ['item1', 'item2', 'item3'];
 

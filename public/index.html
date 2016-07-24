@@ -148,21 +148,72 @@
             <td>{{course.partners}}</td>
             <td>{{course.description}}</td>
             <td>{{course.descriptionDetail}}</td>
-            <td>{{course.descriptionUrl}}</td>
-            <td>{{course.photoUrl}}</td>
+            <td><a href="{{course.descriptionUrl}}" target="#">{{course.descriptionUrl}}</a></td>
+            <td><a href="{{course.photoUrl}}" target="#">{{course.photoUrl}}</a></td>
             <td><button class="btn btn-danger" data-ng-click="deleteCourse(course._id)">Del</button></td>
             <td><button class="btn btn-success" ng-click="open(course)">Upd</button></td>
         </tr>
     </table>
         <script type="text/ng-template" id="myModalContent.html">
             <div class="modal-header">
-                <h3 class="modal-title">I'm a modal!</h3>
+                <h3 class="modal-title text-center">.....Gita....</h3>
             </div>
             <div class="modal-body col-sm-8 col-sm-offset-2 text-center">
                 <form>
-                    <div class="form-group">
+                    <!--<div class="form-group">-->
+                        <div class="row">
+                            <div class="col-xs-4 form-group">
+                                <label>Id</label>
+                                <input type="text" class="form-control input-lg" placeholder="id" ng-model="formData.id">
+                            </div>
+                            <div class="col-xs-8 form-group">
+                                <label>Data</label>
+                                <input type="date" class="form-control input-lg" placeholder="datetime" ng-model="formData.date">
+                            </div>
+                            <div class="col-xs-6 form-group">
+                                <label>Attività</label>
+                                <select class="form-control" ng-model="formData.courseType">
+                                    <option>Alpinismo</option>
+                                    <option>Arrampicata Falesia</option>
+                                    <option>Arrampicata Via Lunga</option>
+                                    <option>Arrampicata Alpinismo</option>
+                                    <option>Bici</option>
+                                    <option>Ciaspole</option>
+                                    <option>Ferrata</option>
+                                    <option>Trekking</option>
+                                    <option>Trekking alpino</option>
+                                    <option>Sci alpinismo</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-6 form-group">
+                                <label>Posto</label>
+                                <input type="text" class="form-control input-lg" placeholder="place" ng-model="formData.place">
+                            </div>
+                            <div class="col-xs-12 form-group">
+                                <label>Compagni di avventura</label>
+                                <input type="text" class="form-control input-lg" placeholder="compagni" ng-model="formData.partners">
+                            </div>
+                            <div class="col-xs-12 form-group">
+                                <label>Descrizione</label>
+                                <textarea  class="form-control input-lg" placeholder="description" ng-model="formData.description" rows="5"></textarea>
+                            </div>
+                            <div class="col-xs-12 form-group">
+                                <label>Descrizione dettaglio</label>
+                                <textarea  class="form-control input-lg" placeholder="dettagli" ng-model="formData.descriptionDetail"></textarea>
+                            </div>
+                            <div class="col-xs-12 form-group">
+                                <label>Informazioni sui siti</label>
+                                <input type="text" class="form-control input-lg" placeholder="descriptionUrl" ng-model="formData.descriptionUrl">
+                            </div>
+                            <div class="col-xs-12 form-group">
+                                <label>Link alle foto</label>
+                                <input type="text" class="form-control input-lg" placeholder="description" ng-model="formData.photoUrl">
+                            </div>
+
+                        <!--</div>-->
 
                         <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+                        <!--
                         <input type="text" class="form-control input-lg" placeholder="id" ng-model="formData.id">
                         <input type="date" class="form-control input-lg" placeholder="datetime" ng-model="formData.date">
 
@@ -173,6 +224,7 @@
                         <input type="text" class="form-control input-lg" placeholder="descriptionDetail" ng-model="formData.descriptionDetail">
                         <input type="text" class="form-control input-lg" placeholder="descriptionUrl" ng-model="formData.descriptionUrl">
                         <input type="text" class="form-control input-lg text-center" placeholder="photoUrl" ng-model="formData.photoUrl">
+                        -->
                     </div>
 
                     <!-- createToDo() WILL CREATE NEW TODOS -->
