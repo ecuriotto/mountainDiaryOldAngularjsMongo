@@ -1,0 +1,193 @@
+<!-- index.html -->
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="diary">
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+    <title>Mountain Diary</title>
+
+    <!-- SCROLLS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><!-- load bootstrap -->
+    <style>
+        html                    { overflow-y:scroll; }
+        body                    { padding-top:50px; }
+        #course-list              { margin-bottom:30px; }
+    </style>
+
+    <!-- SPELLS -->
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>--><!-- load jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script><!-- load angular -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.0.0.js"></script>
+    <!--<script src="lib/smart-table.min.js"></script>-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <script src="core.js"></script>
+
+</head>
+<!-- SET THE CONTROLLER AND GET ALL TODOS -->
+<body ng-controller="mainController">
+<div class="container">
+
+    <!-- HEADER AND TODO COUNT -->
+    <div class="jumbotron text-center">
+        <table>
+            <tr>
+                <td><h1>Attività montane: <span class="label label-info">{{ courses.length }}</span> </h1></td>
+                <td><button class="btn btn-lg btn-success " style="height:500;" ng-click="open()">Aggiungi Attività</button></td>
+            </tr>
+            <tr>
+                <td colspan="100%"><img src="lagoMoncenisioResized.png" class="img-rounded" alt="Lago Moncenisio"></td>
+
+            </tr>
+
+        </table>
+
+
+
+
+    </div>
+
+    <!--
+        <table ng-table="tableParams" class="table-striped" show-filter="true" infinite-scroll="getMoreData()">
+
+
+            <tr ng-repeat="course in $data">
+                <td data-title="'id'" sortable="'id'">{{course.id}}</td>
+                <td  data-title="'date'" sortable="'date'">{{course.date | date}}</td>
+                <td  data-title="'courseType'" sortable="'course.courseType'" filter="{'course.courseType': 'text'}">{{course.courseType | uppercase }} </td>
+                <td  data-title="'place'">{{course.place}}</td>
+                <td  data-title="'partners'">{{course.partners}}</td>
+                <td  data-title="'description'">{{course.description}}</td>
+                <td  data-title="'descriptionDetail'">{{course.descriptionDetail}}</td>
+                <td  data-title="'descriptionUrl'">{{course.descriptionUrl}}</td>
+                <td  data-title="'photoUrl'">{{course.photoUrl}}</td>
+            </tr>
+        </table>
+    -->
+    <form>
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                <input type="text" class="form-control" placeholder="Search and Sort" ng-model="searchTerm">
+            </div>
+        </div>
+    </form>
+
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+            <tr>
+                <td style="display:none;">
+                    Mongo Id
+                </td>
+                <td>
+                    <a href="#" ng-click="sortType = 'id'; sortIt = !sortIt">
+                        <span ng-show="sortType == 'id' && !sortIt" class="fa fa-caret-down"></span>
+                        <span ng-show="sortType == 'id' && sortIt" class="fa fa-caret-up"></span>
+                        Id
+                    </a>
+                </td>
+                <td>
+                    <a href="#" ng-click="sortType = 'date'; sortIt = !sortIt">
+                        <span ng-show="sortType == 'date' && !sortIt" class="fa fa-caret-down"></span>
+                        <span ng-show="sortType == 'date' && sortIt" class="fa fa-caret-up"></span>
+                        Date
+                    </a>
+                </td>
+                <td>
+                    <a href="#" ng-click="sortType = 'courseType'; sortIt = !sortIt">
+                        <span ng-show="sortType == 'courseType' && !sortIt" class="fa fa-caret-down"></span>
+                        <span ng-show="sortType == 'courseType' && sortIt" class="fa fa-caret-up"></span>
+                        Course Type
+                    </a>
+                </td>
+                <td>
+                    <a href="#" ng-click="sortType = 'place'; sortIt = !sortIt">
+                        <span ng-show="sortType == 'place' && !sortIt" class="fa fa-caret-down"></span>
+                        <span ng-show="sortType == 'place' && sortIt" class="fa fa-caret-up"></span>
+                        Place
+                    </a>
+                </td>
+                <td>
+                    Partners
+                </td>
+                <td>
+                    Description
+                </td>
+                <td>
+                    Details
+                </td>
+                <td>
+                    Url
+                </td>
+                <td>
+                    Photos
+                </td>
+                <td>
+                    Delete
+                </td>
+                <td>
+                    Update
+                </td>
+            </tr>
+
+
+        </thead>
+        <tr ng-repeat="course in courses | orderBy:sortType:sortIt | filter:searchTerm">
+            <td style="display:none;">{{course._id}}</td>
+            <td>{{course.id}}</td>
+            <td>{{course.date | date}}</td>
+            <td>{{course.courseType}} </td>
+            <td>{{course.place}}</td>
+            <td>{{course.partners}}</td>
+            <td>{{course.description}}</td>
+            <td>{{course.descriptionDetail}}</td>
+            <td>{{course.descriptionUrl}}</td>
+            <td>{{course.photoUrl}}</td>
+            <td><button class="btn btn-danger" data-ng-click="deleteCourse(course._id)">Del</button></td>
+            <td><button class="btn btn-success" ng-click="open(course)">Upd</button></td>
+        </tr>
+    </table>
+        <script type="text/ng-template" id="myModalContent.html">
+            <div class="modal-header">
+                <h3 class="modal-title">I'm a modal!</h3>
+            </div>
+            <div class="modal-body col-sm-8 col-sm-offset-2 text-center">
+                <form>
+                    <div class="form-group">
+
+                        <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+                        <input type="text" class="form-control input-lg" placeholder="id" ng-model="formData.id">
+                        <input type="date" class="form-control input-lg" placeholder="datetime" ng-model="formData.date">
+
+                        <input type="text" class="form-control input-lg" placeholder="courseType" ng-model="formData.courseType">
+                        <input type="text" class="form-control input-lg" placeholder="place" ng-model="formData.place">
+                        <input type="text" class="form-control input-lg" placeholder="partners" ng-model="formData.partners">
+                        <input type="text" class="form-control input-lg text-center" placeholder="description" ng-model="formData.description">
+                        <input type="text" class="form-control input-lg" placeholder="descriptionDetail" ng-model="formData.descriptionDetail">
+                        <input type="text" class="form-control input-lg" placeholder="descriptionUrl" ng-model="formData.descriptionUrl">
+                        <input type="text" class="form-control input-lg text-center" placeholder="photoUrl" ng-model="formData.photoUrl">
+                    </div>
+
+                    <!-- createToDo() WILL CREATE NEW TODOS -->
+                    <button class="btn btn-success" type="submit"  ng-click="createCourse(formData)">Insert</button>
+                    <button class="btn btn-primary" type="button" ng-click="updateCourse(formData)">Update</button>
+                    <button class="btn btn-warning" type="button" ng-click="closeModal()">Cancel</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </script>
+    </div>
+
+</div>
+
+</body>
+</html>

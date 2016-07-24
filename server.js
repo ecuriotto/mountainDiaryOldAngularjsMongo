@@ -24,7 +24,7 @@
     var Diary = mongoose.model('Diary', new Schema(
         {
             id : Number,
-            date : Date,
+            date : String,
             courseType : String,
             place : String,
             partners : String,
@@ -45,7 +45,7 @@
         // get all todos
         // todos -> courses
         app.get('/api/courses', function(req, res) {
-
+            console.log('get All: ');
             // use mongoose to get all todos in the database
             Diary.find(function(err, diary) {
 
@@ -55,11 +55,23 @@
 
                 res.json(diary); // return all todos in JSON format
             });
+
+        });
+
+        app.get('/api/courses/:mongoId', function(req, res) {
+            // use mongoose to get all todos in the database
+            console.log('mongoID: '+ req.params.mongoId);
+            Diary.find({'_id' : req.params.mongoId },function(err, diary) {
+                // if there is an error retrieving, send the error. nothing after res.send(err) will execute
+                if (err)
+                    res.send(err)
+                res.json(diary); // return all todos in JSON format
+            });
         });
 
         // create todo and send back all todos after creation
         app.post('/api/courses', function(req, res) {
-
+            console.log("Sto creando il record " + req.body.id);
             // create a todo, information comes from AJAX request from Angular
             Diary.create({
                 id : req.body.id,
@@ -73,33 +85,56 @@
                 photoUrl : req.body.photoUrl,
                 done : false
             }, function(err, todo) {
-                if (err)
-                    res.send(err);
+                 if (err)
+                     res.send(err);
+                 console.log("In findByIdAndUpdate... " + req.body)
+                 // get and return all the todos after you create another
+                 Diary.find(function(err, courses) {
+                     if (err)
+                         res.send(err)
+                     res.json(courses);
+                 });
+             });
 
-                // get and return all the todos after you create another
-                Diary.find(function(err, courses) {
+         });
+
+
+
+            app.put('/api/courses/', function(req, res) {
+                console.log("in find by stica zzi" + req.body);
+                // update course, information comes from AJAX request from Angular
+                Diary.findByIdAndUpdate(req.body._id,req.body, {
+                }, function(err, todo) {
                     if (err)
-                        res.send(err)
-                    res.json(courses);
+                        res.send(err);
+                    console.log("In findByIdAndUpdate... " + req.body)
+                    // get and return all the todos after you create another
+                    Diary.find(function(err, courses) {
+                        if (err)
+                            res.send(err)
+                        res.json(courses);
+                    });
                 });
+
             });
 
-        });
-
         // delete a todo
-        app.delete('/api/courses/:id', function(req, res) {
+        app.delete('/api/courses/:mongoId', function(req, res) {
             Diary.remove({
-                _id : req.params.id
+                _id : req.params.mongoId
             }, function(err, course) {
-                if (err)
+                if (err){
+                    console.log("Errore!!! " + err);
                     res.send(err);
-
-                // get and return all the todos after you create another
-                Diary.find(function(err, courses) {
-                    if (err)
-                        res.send(err)
-                    res.json(courses);
-                });
+                }
+                else{
+                    // get and return all the todos after you create another
+                    Diary.find(function(err, courses) {
+                        if (err)
+                            res.send(err)
+                        res.json(courses);
+                    });
+                }
             });
         });
 

@@ -1,0 +1,21 @@
+### Intellij
+*.iml
+.idea
+
+### Eclipse
+.project
+.settings
+.classpath
+
+### Temporary files
+*.orig
+**/bin
+*.tmp
+*~
+*.bak
+
+### Grunt
+target-grunt/
+node_modules
+node
+bower_components
