@@ -37,12 +37,19 @@ var diary = angular.module('diary', ['ngAnimate','ui.bootstrap'])
                             console.log('Error: ' + data);
                         });
                 };
-
+                  //We call this when clicking on Aggiungi Attività
                   $scope.open = function (course) {
-                    if(course!==undefined)
-                        course.date = stringToDate(course.date);
 
-
+                    if(course!==undefined){
+                        course.date = moment(course.date,"DD/MM/YYYY").toDate();
+                        console.log('course.date + di tipo: ' + typeof course.date);
+                        course.insert = false;
+                    }
+                    else{
+                        var course = {};
+                        course.date = moment();
+                        course.insert = true;
+                    }
                     var modalInstance = $uibModal.open({
                       animation: $scope.animationsEnabled,
                       templateUrl: 'myModalContent.html',
@@ -84,7 +91,7 @@ var diary = angular.module('diary', ['ngAnimate','ui.bootstrap'])
                 $scope.courses = [];
 
                   $scope.updateCourse = function (formData) {
-                      formData.date = dateToString(formData.date);
+                      formData.date = moment(formData.date).format("DD/MM/YYYY");
                       console.log("date converted")
                       $http.put('/api/courses/', formData)
                           .success(function(data) {
@@ -99,7 +106,7 @@ var diary = angular.module('diary', ['ngAnimate','ui.bootstrap'])
 
                   // when submitting the add form, send the text to the node API
                   $scope.createCourse = function(formData) {
-
+                      formData.date = moment(formData.date).format("DD/MM/YYYY");
                       $http.post('/api/courses', formData)
                           .success(function(data) {
                               $scope.formData = {}; // clear the form so our user is ready to enter another
@@ -123,18 +130,6 @@ var diary = angular.module('diary', ['ngAnimate','ui.bootstrap'])
                   };
 
               });
-
-function dateToString(dateObj) {
-    var month = dateObj.getUTCMonth() + 1; //months from 1-12
-    var day = dateObj.getDate();
-    var year = dateObj.getUTCFullYear();
-
-    return day + "/" + month + "/" + year;
-}
-function stringToDate(dateStr) {
-  var parts = dateStr.split("/");
-  return new Date(parts[2], parts[1] - 1, parts[0]);
-}
 
 /*
 diary.factory('Courses', function(){

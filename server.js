@@ -73,28 +73,40 @@
         app.post('/api/courses', function(req, res) {
             console.log("Sto creando il record " + req.body.id);
             // create a todo, information comes from AJAX request from Angular
-            Diary.create({
-                id : req.body.id,
-                date : req.body.date,
-                courseType : req.body.courseType,
-                place : req.body.place,
-                partners : req.body.partners,
-                description : req.body.description,
-                descriptionDetail : req.body.descriptionDetail,
-                descriptionUrl : req.body.descriptionUrl,
-                photoUrl : req.body.photoUrl,
-                done : false
-            }, function(err, todo) {
-                 if (err)
-                     res.send(err);
-                 console.log("In findByIdAndUpdate... " + req.body)
-                 // get and return all the todos after you create another
-                 Diary.find(function(err, courses) {
-                     if (err)
-                         res.send(err)
-                     res.json(courses);
-                 });
-             });
+            var max=0;
+            //Get the max id
+            Diary.findOne()
+                .sort('-id')
+                .exec(function(err, doc)
+                {
+                    max = doc.id;
+                    console.log('Dentro'+doc.id);
+                    Diary.create({
+                        id : max+1,
+                        date : req.body.date,
+                        courseType : req.body.courseType,
+                        place : req.body.place,
+                        partners : req.body.partners,
+                        description : req.body.description,
+                        descriptionDetail : req.body.descriptionDetail,
+                        descriptionUrl : req.body.descriptionUrl,
+                        photoUrl : req.body.photoUrl,
+                        done : false
+                    }, function(err, todo) {
+                         if (err)
+                             res.send(err);
+                         console.log("In findByIdAndUpdate... " + req.body)
+                         // get and return all the todos after you create another
+                         Diary.find(function(err, courses) {
+                             if (err)
+                                 res.send(err)
+                             res.json(courses);
+                         });
+                     });
+                }
+            );
+            console.log('Fuori'+max);
+
 
          });
 
