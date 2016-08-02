@@ -71,7 +71,6 @@
 
         // create todo and send back all todos after creation
         app.post('/api/courses', function(req, res) {
-            console.log("Sto creando il record " + req.body.id);
             // create a todo, information comes from AJAX request from Angular
             var max=0;
             //Get the max id
@@ -80,7 +79,6 @@
                 .exec(function(err, doc)
                 {
                     max = doc.id;
-                    console.log('Dentro'+doc.id);
                     Diary.create({
                         id : max+1,
                         date : req.body.date,
@@ -92,11 +90,12 @@
                         descriptionUrl : req.body.descriptionUrl,
                         photoUrl : req.body.photoUrl,
                         done : false
-                    }, function(err, todo) {
+                    }, function(err, course) {
                          if (err)
                              res.send(err);
-                         console.log("In findByIdAndUpdate... " + req.body)
-                         // get and return all the todos after you create another
+
+                         // get and return all the courses after you create another
+                         console.log("Course create successfully ");
                          Diary.find(function(err, courses) {
                              if (err)
                                  res.send(err)
@@ -105,15 +104,12 @@
                      });
                 }
             );
-            console.log('Fuori'+max);
-
 
          });
 
 
 
             app.put('/api/courses/', function(req, res) {
-                console.log("in find by stica zzi" + req.body);
                 // update course, information comes from AJAX request from Angular
                 Diary.findByIdAndUpdate(req.body._id,req.body, {
                 }, function(err, todo) {
@@ -144,6 +140,7 @@
                     Diary.find(function(err, courses) {
                         if (err)
                             res.send(err)
+                        console.log("courses.length " + courses.length)
                         res.json(courses);
                     });
                 }

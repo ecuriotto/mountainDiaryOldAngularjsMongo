@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
     <script src="core.js"></script>
+    <script src="coursesFactory.js"></script>
     <script src="lib/moment.min.js" type="text/javascript"></script>
 
 </head>
@@ -47,14 +48,8 @@
             </tr>
             <tr>
                 <td colspan="100%"><img src="lagoMoncenisioResized.png" class="img-rounded" alt="Lago Moncenisio"></td>
-
             </tr>
-
         </table>
-
-
-
-
     </div>
 
     <!--
@@ -145,7 +140,7 @@
         <tr ng-repeat="course in courses | orderBy:sortType:sortIt | filter:searchTerm">
             <td style="display:none;">{{course._id}}</td>
             <td>{{course.id}}</td>
-            <td>{{course.date | date}}</td>
+            <td>{{course.date}}</td>
             <td>{{course.courseType}} </td>
             <td>{{course.place}}</td>
             <td>{{course.partners}}</td>
@@ -158,90 +153,91 @@
 
         </tr>
     </table>
-        <script type="text/ng-template" id="myModalContent.html">
-            <div class="modal-header">
-                <h3 class="modal-title text-center">.....Gita....</h3>
-            </div>
-            <div class="modal-body col-sm-8 col-sm-offset-2 text-center">
-                <form>
-                    <!--<div class="form-group">-->
-                        <div class="row">
-                            <div class="col-xs-4 form-group">
-                                <label>Id</label>
-                                <input type="text" class="form-control input-lg" placeholder="id" ng-model="formData.id">
-                            </div>
-                            <div class="col-xs-8 form-group">
-                                <label>Data</label>
-                                <input type="date" class="form-control input-lg" placeholder="date" ng-model="formData.date">
-                            </div>
-                            <div class="col-xs-6 form-group">
-                                <label>Attività</label>
-                                <select class="form-control" ng-model="formData.courseType">
-                                    <option>Alpinismo</option>
-                                    <option>Arrampicata Falesia</option>
-                                    <option>Arrampicata Via Lunga</option>
-                                    <option>Arrampicata Alpinismo</option>
-                                    <option>Bici</option>
-                                    <option>Ciaspole</option>
-                                    <option>Ferrata</option>
-                                    <option>Trekking</option>
-                                    <option>Trekking alpino</option>
-                                    <option>Sci alpinismo</option>
-                                </select>
-                            </div>
-                            <div class="col-xs-6 form-group">
-                                <label>Posto</label>
-                                <input type="text" class="form-control input-lg" placeholder="place" ng-model="formData.place">
-                            </div>
-                            <div class="col-xs-12 form-group">
-                                <label>Compagni di avventura</label>
-                                <input type="text" class="form-control input-lg" placeholder="compagni" ng-model="formData.partners">
-                            </div>
-                            <div class="col-xs-12 form-group">
-                                <label>Descrizione</label>
-                                <textarea  class="form-control input-lg" placeholder="description" ng-model="formData.description" rows="5"></textarea>
-                            </div>
-                            <div class="col-xs-12 form-group">
-                                <label>Descrizione dettaglio</label>
-                                <textarea  class="form-control input-lg" placeholder="dettagli" ng-model="formData.descriptionDetail"></textarea>
-                            </div>
-                            <div class="col-xs-12 form-group">
-                                <label>Informazioni sui siti</label>
-                                <input type="text" class="form-control input-lg" placeholder="descriptionUrl" ng-model="formData.descriptionUrl">
-                            </div>
-                            <div class="col-xs-12 form-group">
-                                <label>Link alle foto</label>
-                                <input type="text" class="form-control input-lg" placeholder="description" ng-model="formData.photoUrl">
-                            </div>
-
-                        <!--</div>-->
-
-                        <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-                        <!--
-                        <input type="text" class="form-control input-lg" placeholder="id" ng-model="formData.id">
-                        <input type="date" class="form-control input-lg" placeholder="datetime" ng-model="formData.date">
-
-                        <input type="text" class="form-control input-lg" placeholder="courseType" ng-model="formData.courseType">
-                        <input type="text" class="form-control input-lg" placeholder="place" ng-model="formData.place">
-                        <input type="text" class="form-control input-lg" placeholder="partners" ng-model="formData.partners">
-                        <input type="text" class="form-control input-lg text-center" placeholder="description" ng-model="formData.description">
-                        <input type="text" class="form-control input-lg" placeholder="descriptionDetail" ng-model="formData.descriptionDetail">
-                        <input type="text" class="form-control input-lg" placeholder="descriptionUrl" ng-model="formData.descriptionUrl">
-                        <input type="text" class="form-control input-lg text-center" placeholder="photoUrl" ng-model="formData.photoUrl">
-                        -->
-                    </div>
-
-                    <!-- createToDo() WILL CREATE NEW TODOS -->
-                    <button class="btn btn-success" type="submit" ng-show="formData.insert" ng-click="createCourse(formData)">Insert</button>
-                    <button class="btn btn-primary" type="button" ng-show="!formData.insert" ng-click="updateCourse(formData)">Update</button>
-                    <button class="btn btn-warning" type="button" ng-click="closeModal()">Cancel</button>
-                </form>
-            </div>
-            <div class="modal-footer">
-
-            </div>
-        </script>
     </div>
+<script type="text/ng-template" id="courseModal.html">
+    <div class="modal-header">
+        <h3 class="modal-title text-center">Gita {{formData.place}}</h3>
+    </div>
+    <div class="modal-body col-sm-10 col-sm-offset-1 text-center">
+        <form>
+            <!--<div class="form-group">-->
+            <div class="row">
+                <div class="col-xs-4 form-group" ng-show="!formData.insert" >
+                    <label>Id</label>
+                    <input type="text" class="form-control" placeholder="id" ng-model="formData.id" ng-readonly="true">
+                </div>
+                <div class="col-xs-8 form-group">
+                    <label>Data</label>
+                    <input type="date" class="form-control input-lg" placeholder="date" ng-model="formData.date">
+                </div>
+                <div class="col-xs-6 form-group">
+                    <label>Attività</label>
+                    <select class="form-control" ng-model="formData.courseType">
+                        <option>Alpinismo</option>
+                        <option>Arrampicata Falesia</option>
+                        <option>Arrampicata Via Lunga</option>
+                        <option>Arrampicata Alpinismo</option>
+                        <option>Bici</option>
+                        <option>Ciaspole</option>
+                        <option>Ferrata</option>
+                        <option>Trekking</option>
+                        <option>Trekking alpino</option>
+                        <option>Sci alpinismo</option>
+                    </select>
+                </div>
+                <div class="col-xs-6 form-group">
+                    <label>Posto</label>
+                    <input type="text" class="form-control input-lg" placeholder="place" ng-model="formData.place">
+                </div>
+                <div class="col-xs-12 form-group">
+                    <label>Compagni di avventura</label>
+                    <input type="text" class="form-control input-lg" placeholder="compagni" ng-model="formData.partners">
+                </div>
+                <div class="col-xs-12 form-group">
+                    <label>Descrizione</label>
+                    <textarea  class="form-control input-lg" placeholder="description" ng-model="formData.description" rows="5"></textarea>
+                </div>
+                <div class="col-xs-12 form-group">
+                    <label>Descrizione dettaglio</label>
+                    <textarea  class="form-control input-lg" placeholder="dettagli" ng-model="formData.descriptionDetail"></textarea>
+                </div>
+                <div class="col-xs-12 form-group">
+                    <label>Informazioni sui siti</label>
+                    <input type="text" class="form-control input-lg" placeholder="descriptionUrl" ng-model="formData.descriptionUrl">
+                </div>
+                <div class="col-xs-12 form-group">
+                    <label>Link alle foto</label>
+                    <input type="text" class="form-control input-lg" placeholder="description" ng-model="formData.photoUrl">
+                </div>
+
+                <!--</div>-->
+
+                <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+                <!--
+                <input type="text" class="form-control input-lg" placeholder="id" ng-model="formData.id">
+                <input type="date" class="form-control input-lg" placeholder="datetime" ng-model="formData.date">
+
+                <input type="text" class="form-control input-lg" placeholder="courseType" ng-model="formData.courseType">
+                <input type="text" class="form-control input-lg" placeholder="place" ng-model="formData.place">
+                <input type="text" class="form-control input-lg" placeholder="partners" ng-model="formData.partners">
+                <input type="text" class="form-control input-lg text-center" placeholder="description" ng-model="formData.description">
+                <input type="text" class="form-control input-lg" placeholder="descriptionDetail" ng-model="formData.descriptionDetail">
+                <input type="text" class="form-control input-lg" placeholder="descriptionUrl" ng-model="formData.descriptionUrl">
+                <input type="text" class="form-control input-lg text-center" placeholder="photoUrl" ng-model="formData.photoUrl">
+                -->
+            </div>
+
+            <!-- createToDo() WILL CREATE NEW TODOS -->
+            <button class="btn btn-success" type="submit" ng-show="formData.insert" ng-click="createCourse(formData)">Insert</button>
+            <button class="btn btn-primary" type="button" ng-show="!formData.insert" ng-click="updateCourse(formData)">Update</button>
+            <button class="btn btn-warning" type="button" ng-click="closeModal()">Cancel</button>
+        </form>
+    </div>
+    <div class="modal-footer">
+
+    </div>
+</script>
+
 
 </div>
 
