@@ -1,15 +1,17 @@
 
 
 diary.factory('courses',['$http', function($http){
-  var courses = {};
+  var courses = {'data':[]};
 
   courses.create = function(formData) {
+
            console.log('course.date + di tipo: ' + typeof formData.date);
+           console.log(courses);
+
            formData.date = moment(formData.date).format("DD/MM/YYYY");
            console.log('momentaggio... formData.date + di tipo: ' + typeof formData.date);
            return $http.post('/api/courses', formData)
                .then(function(response) {
-                   console.log("Success after inserting the db"+response.data);
                    courses.data = response.data;
                    return response.data;
                },
@@ -25,6 +27,7 @@ diary.factory('courses',['$http', function($http){
          return $http.put('/api/courses/', formData)
              .then (function(response) {
                  console.log("Success after updating the db");
+                 courses.data = response.data;
                  return response.data;
              },
              function(data) {
@@ -37,7 +40,6 @@ diary.factory('courses',['$http', function($http){
       console.log("id vale: " + mongoId)
       return $http.delete('/api/courses/' + mongoId)
           .then(function(response) {
-              console.log(response.data)
               console.log("data length" + response.data.length);
               console.log("Success after deleting the db")
 
@@ -62,9 +64,3 @@ diary.factory('courses',['$http', function($http){
 
   return courses;
 }]);
-
-/*
-diary.factory('spCourse',['$http', function($http){
-
-}]);
-*/

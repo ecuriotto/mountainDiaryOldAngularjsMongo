@@ -8,12 +8,13 @@ var diary = angular.module('diary', ['ngAnimate','ui.bootstrap'])
                 $scope.sortType     = 'id'; // set the default sort type
                 $scope.sortIt  = true;  // set the default sort order
                 $scope.searchTerm   = '';     // set the default search/filter term
-                /*
-                $scope.getCourses = function(){
-                    return courses.getAll();
 
-                }
-                */
+                $scope.$watch(function () { return courses.data }, function (newVal, oldVal) {
+                    if (typeof newVal !== 'undefined') {
+                        $scope.courses = courses.data;
+                    }
+                });
+
                 courses.getAll(function(courses){
                     return courses;
                 });
@@ -87,12 +88,7 @@ var diary = angular.module('diary', ['ngAnimate','ui.bootstrap'])
 
                   // when submitting the add form, send the text to the node API
                   $scope.createCourse = function(formData) {
-                      courses.create(formData).then(
-                          function(data){
-                              $scope.courses = data;
-                              console.log(data.length);
-                          }
-                      );
+                      courses.create(formData);
                       $uibModalInstance.close(formData);
                   };
 
