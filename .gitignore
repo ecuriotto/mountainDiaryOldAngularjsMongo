@@ -14,8 +14,15 @@
 *~
 *.bak
 
+
 ### Grunt
 target-grunt/
 node_modules
 node
 bower_components
+
+### miei files
+listaUscite.txt
+*.csv
+
+listaUscite.txt

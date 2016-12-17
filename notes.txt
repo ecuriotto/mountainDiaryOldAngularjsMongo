@@ -14,6 +14,10 @@ db.diary.update({ _id: ObjectId('578811d7bd7ed3904874d9a6') }, {id:2, courseType
 db.diary.distinct("courseType")
 db.diary.find( { id: 2 } ).pretty()
 
+fare un backup csv:
+mongoexport --db montagna --collection diary --type=csv --out backup.csv --fields id,date,days,courseType,place,partners,description,descriptionDetail,descriptionUrl,photoUrl
+
+
 Date:update non funziona id=1 dovrebbe essere 1/05 e invece è 1/04. Problema dei mesi e giorni con una cifra OK
 Nascondere i pulsanti di Insert/Update OK
 Modificare date deve essere effettivamente una data, non una stringa.
