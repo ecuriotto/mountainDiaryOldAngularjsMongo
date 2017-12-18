@@ -74,34 +74,45 @@
             // create a todo, information comes from AJAX request from Angular
             var max=0;
             //Get the max id
-            Diary.findOne()
-                .sort('-id')
+            Diary.findOne({})
+				.sort({id: -1})
+                //.sort('-id')
                 .exec(function(err, doc)
                 {
-                    max = doc.id;
-                    Diary.create({
-                        id : max+1,
-                        date : req.body.date,
-                        courseType : req.body.courseType,
-                        place : req.body.place,
-                        partners : req.body.partners,
-                        description : req.body.description,
-                        descriptionDetail : req.body.descriptionDetail,
-                        descriptionUrl : req.body.descriptionUrl,
-                        photoUrl : req.body.photoUrl,
-                        done : false
-                    }, function(err, course) {
-                         if (err)
-                             res.send(err);
+					if(err || isNaN(doc.id)){
+						console.log("error: " + err + " doc " + doc)
+					}
+					else{						
+						max = doc.id;					
+						Diary.create({
+							id : max+1,
+							date : req.body.date,
+							courseType : req.body.courseType,
+							place : req.body.place,
+							partners : req.body.partners,
+							description : req.body.description,
+							descriptionDetail : req.body.descriptionDetail,
+							descriptionUrl : req.body.descriptionUrl,
+							photoUrl : req.body.photoUrl,
+							done : false
+						}, function(err, course) {
+							 if (err){
+								 res.send(err);
+								 console.log("error: " + err);
+							 }
+							 else{
+								 Diary.find(function(err, courses) {
+									 if (err)
+										 res.send(err)
 
-                         // get and return all the courses after you create another
-                         console.log("Course create successfully ");
-                         Diary.find(function(err, courses) {
-                             if (err)
-                                 res.send(err)
-                             res.json(courses);
-                         });
-                     });
+									 res.json(courses);
+								 });
+							 }
+							 
+							  
+							 
+						 });
+					}	 
                 }
             );
 
@@ -151,7 +162,8 @@
     app.get('*', function(req, res) {
         res.sendfile('./public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
     });
-
+	
+	var today  = new Date();
     // listen (start app with node server.js) ======================================
     app.listen(8089);
-    console.log("App listening on port 8089");
+    console.log(today.toLocaleString("en-US") + " - App listening on port 8089");
