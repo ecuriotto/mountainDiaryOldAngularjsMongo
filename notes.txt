@@ -1,23 +1,32 @@
 ﻿Comandi utili:
 
 To start the server:
-nodemon server.js
+nodemon server.js and then
+localhost:8089
 
 Connettersi a mongo:
 mongo.exe
 Cambiare db: use montagna
 show collections
 db.diary.find().pretty();
-db.diary.find( { _id: '578811d7bd7ed3904874d9c7' } ).pretty()
-db.diary.find( { _id: ObjectId('578811d7bd7ed3904874d9a6') } ).pretty()
-db.diary.update({ _id: ObjectId('578811d7bd7ed3904874d9a6') }, {id:2, courseType: 'Arrampicata', place:'Novalesa' ,partners:'Stefano', description:'settore Toupè' ,descriptionDetail:'L’inizio 4+; Lo scalino 4; Hale Bopp 5', date : '10/07/2011'}).pretty()
+db.diary.find( { _id: ObjectId('5a1ddd08efdb06dfb072d774') } ).pretty()
+db.diary.update({ _id: ObjectId('5a36cbab87c4862b3c290b7f') }, {id:2, courseType: 'Arrampicata', place:'Novalesa' ,partners:'Stefano', description:'settore Toupè' ,descriptionDetail:'L’inizio 4+; Lo scalino 4; Hale Bopp 5', date : '10/07/2011'}).pretty()
+db.diary.update({ _id: ObjectId('5a36cbab87c4862b3c290b7f') , id:null, courseType: '', place:'' ,partners:'', description:'' ,descriptionDetail:'L’inizio 4+; Lo scalino 4; Hale Bopp 5', date : '10/07/2011'}).pretty()
+db.diary.update({'id':207},{$set:{'id':null}})
+
 db.diary.distinct("courseType")
 db.diary.find( { id: 2 } ).pretty()
+db.diary.find({ id: null } ).pretty();
 
+db.diary.find({ id : { $exists: false }}).pretty()
 fare un backup csv:
-mongoexport --db montagna --collection diary --type=csv --out backup.csv --fields id,date,days,courseType,place,partners,description,descriptionDetail,descriptionUrl,photoUrl
+c:Program Files/MongoDB/Server/3.4/bin/mongoexport --db montagna --collection diary --type=csv --out backup2.csv --fields id,date,days,courseType,place,partners,description,descriptionDetail,descriptionUrl,photoUrl
+
+update 6/8/2020 ho creato una shortcut a mongoexport:
+mongoexport aggiunto al Path e si può eseguire da ovunque ma come amministratore
+
 per reimportare:
-mongoimport --db montagna --collection diary --file C:\Users\bonitasoft\Dropbox\diarioMontagna\backup.csv --type csv --fields id,date,days,courseType,place,partners,description,descriptionDetail,descriptionUrl,photoUrl
+mongoimport --db montagna --collection diary --file C:\Users\bonitasoft\Dropbox\diarioMontagna\backup.csv --type csv --fields id,date,days,courseType,place,partners,description,descriptionDetail,descriptionUrl,photoUrl;
 
 
 Date:update non funziona id=1 dovrebbe essere 1/05 e invece è 1/04. Problema dei mesi e giorni con una cifra OK
