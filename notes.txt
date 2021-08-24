@@ -23,7 +23,7 @@ fare un backup csv:
 c:Program Files/MongoDB/Server/3.4/bin/mongoexport --db montagna --collection diary --type=csv --out backup2.csv --fields id,date,days,courseType,place,partners,description,descriptionDetail,descriptionUrl,photoUrl
 
 update 6/8/2020 ho creato una shortcut a mongoexport:
-mongoexport aggiunto al Path e si può eseguire da ovunque ma come amministratore
+mongoexport aggiunto al Path e si può eseguire da ovunque ma come amministratore (vedere nota del 2021 sull'export)
 
 per reimportare:
 mongoimport --db montagna --collection diary --file C:\Users\bonitasoft\Dropbox\diarioMontagna\backup.csv --type csv --fields id,date,days,courseType,place,partners,description,descriptionDetail,descriptionUrl,photoUrl;
@@ -46,3 +46,8 @@ e getAll solo per recuperare i dati.
 30/11/2017
 cambio pc: problemi facendo il mongoimport, il comando non era corretto, ora lo è.
 Per il resto tutto ok, con la nuova versione di mongodb, nodejs e mongoose no problems.
+
+24/08/2021
+Mi accorgo che mongoexport usa come separatore la virgola, e le descrizioni ne sono piene.
+Exporto con tabulatura creando il programma myExport.js, da eseguire così: 
+mongo --quiet myExport.js > backupTab20210824.csv
